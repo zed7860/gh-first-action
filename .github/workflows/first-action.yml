@@ -1,16 +1,21 @@
 name: First Workflow
-on: workflow_dispatch
-schedule:
-  - crone: '*/5 * * * *'
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
 jobs:
   first-job:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Printy Greetings
+      - name: Print Greetings
         run: |
           echo "Hello Everyone"
           echo "How are you?"
+
       - name: Print Bye
         run: |
-          echo "God Bye See you later"
-          echo "Aligator"
+          echo "Goodbye, see you later"
+          echo "Alligator"
