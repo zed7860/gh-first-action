@@ -7,6 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Printy Greetings
-        run: echo "Hello Everyone" echo "Hello Everyone"
+        run: |
+          echo "Hello Everyone"
+          echo "How are you?"
       - name: Print Bye
-        run: echo "God Bye See you later" echo "Aligator"
+        run: |
+          echo "God Bye See you later"
+          echo "Aligator"
