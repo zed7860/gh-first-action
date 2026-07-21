@@ -12,4 +12,3 @@ jobs:
       - name: Print Bye
         run: echo "God Bye See you later"
         run: echo "Aligator"
-    Steps: 
